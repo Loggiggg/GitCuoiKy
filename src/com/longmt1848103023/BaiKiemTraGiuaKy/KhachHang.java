@@ -17,4 +17,12 @@ public abstract class KhachHang {
     public String toString(){
     return "tenCongTy=" + tenCongTy +" triGiaHoaDon =" + triGiaHoaDon;
     }
+    public void setTenCongTy(String string) {
+    }
+    public void setTriGiaDonHang(int i) {
+    }
+    public void setHoTen(String string) {
+    }
+    public void setDiaChi(String string) {
+    }
 }
