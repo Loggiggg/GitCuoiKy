@@ -20,19 +20,12 @@ public abstract class HocVien extends Nguoi {
         return ((diemMonHoc1) + diemMonHoc2)/2;
     }
     @Override
-    public void toString() {
-        return ;
+    public String toString() {
+        return "";
     }
     public void setDiemMonHoc1(int i) {
         if (diemMonHoc1<0 && diemMonHoc1>=10){
             ok = false;
-            break;
-        }
-    }
-    public void setDiemMonHoc2(int i) {
-        if (diemMonHoc2<0 && diemMonHoc2>=10){
-            ok = false;
-            break;
         }
     }
     public void setHoTen(String string) {
