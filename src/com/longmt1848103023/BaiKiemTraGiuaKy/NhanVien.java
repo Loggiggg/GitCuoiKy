@@ -13,7 +13,7 @@ public abstract class NhanVien extends Nguoi {
 
     Scanner scanner = new Scanner(System.in);
     private float tinhLuong;
-    private java.lang.String luongNhanVien;
+    private float luongNhanVien;
     private static long Luong_NV = 1500000;
 
    
@@ -36,7 +36,7 @@ public abstract class NhanVien extends Nguoi {
     }
  
     @Override
-    public void toString() {
+    public String toString() {
          return super.toString() +", luongNhanVien:" + this.heSoLuong;
     }
 
