@@ -7,7 +7,7 @@ package com.longmt1848103023.BaiKiemTraGiuaKy;
 public class QuanLyTestDrive {
     public static void main(String[] args) {
         DanhSachQuanLy ds = new DanhSachQuanLy();
-        HocVien sv = new HocV();
+        HocVien sv = new HocVien();
         sv.setDiemMonHoc1(5);
         sv.setDiemMonHoc1(6);
         sv.setHoTen("a");
