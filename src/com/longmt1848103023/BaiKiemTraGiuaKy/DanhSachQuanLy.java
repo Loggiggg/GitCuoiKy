@@ -8,10 +8,11 @@ import java.util.ArrayList;
 
 public class DanhSachQuanLy {
     private ArrayList<Nguoi> danhSach = new ArrayList<Nguoi>();
-    public void them(Nguoi nguoi){
-        this.danhSach.add(nguoi);
+    public void them(Nguoi kh){
+        this.danhSach.add(kh);
     }
     public void inDanhSach(){
         System.out.println(danhSach);
     }
+
 }
