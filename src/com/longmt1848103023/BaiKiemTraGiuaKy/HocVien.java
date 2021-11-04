@@ -29,6 +29,12 @@ public abstract class HocVien extends Nguoi {
             break;
         }
     }
+    public void setDiemMonHoc2(int i) {
+        if (diemMonHoc2<0 && diemMonHoc2>=10){
+            ok = false;
+            break;
+        }
+    }
     public void setHoTen(String string) {
     }
     public void setSoLuongHV(int i) {
