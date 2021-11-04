@@ -27,6 +27,6 @@ public class Nguoi {
     }
     @Override
     public String toString(){
-        return "Ho ten"+ hoTen + "diaChi:" +diaChi;
+        return "NGUOI_HO_TEN"+ hoTen + "diaChi:" +diaChi;
     }
 }
